@@ -1,0 +1,18 @@
+{
+  "name": "language-amcl",
+  "main": "./lib/language-amcl",
+  "version": "0.0.0",
+  "description": "AM/CL grammar for atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-amcl:toggle"
+  },
+  "repository": "https://github.com/marcodebon4/language-amcl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,26 @@
+name: 'AM/CL'
+scopename: 'amcl'
+type: 'tree-sitter'
+parser: 'tree-sitter-amcl'
+
+fileTypes [
+  'cl'
+  'eb'
+]
+
+scopes:
+  "if": 'keyword.control'
+  "else": 'keyword.control'
+  "do": 'keyword.control'
+  "for": 'keyword.control'
+  "while": 'keyword.control'
+  "break": 'keyword.control'
+  "continue": 'keyword.control'
+  "return": 'keyword.control'
+  "switch": 'keyword.control'
+  "case": 'keyword.control'
+  "default": 'keyword.control'
+  "goto": 'keyword.control'
+
+comments:
+  start: '--'
